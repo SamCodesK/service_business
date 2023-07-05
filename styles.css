@@ -1,0 +1,126 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    color: #333;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+  background-color: #cc5de8;
+  align-items: center;
+  height: 9.6rem;
+  padding: 0 14rem;
+  font-weight: 700;
+}
+
+.header-items {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.header-items a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+
+.logo {
+   height: 8rem;
+}
+
+
+
+/* Section Hero */
+
+.section-hero {
+    background-color: #cc5de8;
+    padding: 4.8rem 0 9rem 0;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 130rem;
+    margin: 0 auto;
+    align-items: center;
+    gap: 9rem;
+    padding: 0 3rem;
+}
+
+.heading-primary {
+font-size: 5.2rem;
+margin-bottom: 2rem;
+max-width: 60rem;
+}
+
+.hero-p {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    line-height: 1.5;
+}
+
+.btn:link, .btn:visited {
+    margin-bottom: 8rem;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.6rem 3.2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.btn-full:link, .btn-full:visited {
+    background-color: #4dabf7;
+    color: #fff;
+}
+
+.btn-full:hover, .btn-full:active {
+    background-color: #459ade;
+}
+
+.btn-outline:link, .btn-outline:visited {
+    background-color: #ffffff;
+    color: #333;
+}
+
+.btn-outline:hover, .btn-outline:active {
+    background-color: #cc5de8;
+    box-shadow: 0 0 0 2px #ffffff;
+}
+
+
+
+.company-logos-list {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    
+}
+
+.svg {
+    color: white;
+}
+
+.hero-img {
+    width: 100%;
+}
