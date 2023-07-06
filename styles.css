@@ -238,6 +238,7 @@ max-width: 60rem;
     row-gap: 9.4rem;
     column-gap: 6.2rem;
     align-items: center;
+    grid-template-columns: 1fr 1fr;
 }
 
 .service-img {
