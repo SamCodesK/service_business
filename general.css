@@ -10,6 +10,37 @@ FONT SIZE SYSTEM (px)
 
 */
 
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+.grid {
+    display: grid;
+    row-gap: 9.4rem;
+    column-gap: 6.2rem;
+}
+
+.grid--2--cols {
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid--3--cols {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid--4--cols {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
+
+
+
+
+
 
 strong {
     font-weight: 500;
