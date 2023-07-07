@@ -8,7 +8,17 @@ SPACING SYSTEM (px)
 FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
+Main color:
+color: #b854d1
+
 */
+
+
+
+
+
+
+
 
 .container {
     max-width: 120rem;
@@ -46,5 +56,27 @@ strong {
 
 .text-center {
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
+
+.heading-primary {
+    font-size: 5.2rem;
+    margin-bottom: 3rem;
+}
+    
+.heading-secondary {
+        font-size: 3.6rem;
+        margin-bottom: 4rem;
+        max-width: 40rem;
+        line-height: 1.3;
+}
+
+.subhead {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    color: #b854d1;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
