@@ -35,17 +35,16 @@ FONT SIZE SYSTEM (px)
 }
 
 
-
-
-
-
-
-
-
 strong {
     font-weight: 500;
 }
 
 .margin-right-btn {
     margin-right: 1rem;
+}
+
+
+.text-center {
+    text-align: center;
+    margin-bottom: 4rem;
 }
