@@ -137,6 +137,12 @@ body {
     color: white;
     height: 2rem;
     width: 2rem;
+    transition: all 0.3s;
+}
+
+.svg:hover {
+    transform: translateY(-1rem);
+    color: #4dabf7;
 }
 
 .hero-img-box {
@@ -156,7 +162,7 @@ body {
 /* Service */
 
 .service {
-    padding: 9rem 5rem;
+    padding: 9.6rem 5rem;
     margin: 0 auto;
     align-items: center;
     grid-template-columns: 55fr 45fr;
@@ -200,7 +206,6 @@ body {
     box-shadow: 0 0 0 2px currentColor;
     color: #b854d1;
     background-color: #ffffff;
-    
 }
 
 
@@ -276,6 +281,7 @@ body {
 
 .section-team {
     padding: 9.6rem 0;
+    background-color: #f5f7f8;
 }
 
 
@@ -318,14 +324,13 @@ body {
     transform: translateY(-1rem);
     box-shadow: 0 2.4rem 4.6rem 0 rgba(0, 0, 0, 0.5);
     background-color: #f5f7f8;
-    color: #229cffc0;
+    color: #333;
     font-weight: 600;
 }
 
 .team-name {
     font-size: 2rem;
     margin-bottom: 2rem;
-    
 }
 
 .team-job {
@@ -338,7 +343,7 @@ body {
 
 .section-testimonials {
     background-color:  #f5f7f8;
-    padding: 4rem 0;
+    padding: 9rem 0;
 }
 
 .section-testimonial {
@@ -377,10 +382,13 @@ padding: 9.6rem 0;
     margin-bottom: 2rem;
     font-size: 1.6rem;
     line-height: 1.5;
+    font-weight: 500;
 }
 
 .testimonial-name {
     font-size: 1.6rem;
+    color: #4dabf7;
+    font-weight: 700;
 }
 
 .section-subhead {
@@ -389,4 +397,5 @@ padding: 9.6rem 0;
     font-size: 1.4rem;
     font-weight: 900;
     text-transform: uppercase;
+    color: #b854d1;
 }
