@@ -89,6 +89,8 @@ body {
     margin-bottom: 5rem;
     line-height: 1.5;
     max-width: 65rem;
+    color: #ffffff;
+    font-weight: 400;
 }
 
 .btn:link, .btn:visited {
@@ -133,6 +135,8 @@ body {
 
 .svg {
     color: white;
+    height: 2rem;
+    width: 2rem;
 }
 
 .hero-img-box {
@@ -156,6 +160,7 @@ body {
     margin: 0 auto;
     align-items: center;
     grid-template-columns: 55fr 45fr;
+    background-color: #f5f7f8;
 }
 
 .service-text {
@@ -202,23 +207,35 @@ body {
 .card {
    width: 30rem;
     text-align: center;
-    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.498);
+    box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.4);
     padding: 3rem 4rem;
     border-radius: 8px;
-    
+    background-color: #ffffff;
+    transition: all 0.4s;
+}
+
+.card:hover {
+    background-color: #229cffc0;
+    color: white;
+    transform: translateY(-1rem);
 }
 
 
 .span-card {
-    font-size: 2.4rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
     display: block;
+    font-weight: 500;
 }
 
+
+
+
 .p-card {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 1.6;
-    max-width: 100%;
+    font-weight: 400;
+
 }
 
 .svg-card {
@@ -243,6 +260,7 @@ body {
     column-gap: 6.2rem;
     align-items: center;
     grid-template-columns: 1fr 1fr;
+    background-color: #f5f7f8;
 }
 
 .agency-img-box {
@@ -285,17 +303,23 @@ body {
 
 
 .team-card {
-    box-shadow: 0 1.6rem 3.2rem 0 rgba(0, 0, 0, 0.65);
+    box-shadow: 0 1.2rem 2.8rem 0 rgba(0, 0, 0, 0.4);
     padding: 4.5rem;
     text-align: center;
     transition: all 0.3s;
     overflow: hidden;
     border-radius: 5px;
+    background-color: #229cffc0;
+    color: #f5f7f8;
+    font-weight: 600;
 }
 
 .team-card:hover {
     transform: translateY(-1rem);
     box-shadow: 0 2.4rem 4.6rem 0 rgba(0, 0, 0, 0.5);
+    background-color: #f5f7f8;
+    color: #229cffc0;
+    font-weight: 600;
 }
 
 .team-name {
@@ -310,15 +334,10 @@ body {
     font-weight: 500;
 }
 
-
-.color-card {
-    background-color: #bf65d6;
-}
-
 /* Testimonial */
 
 .section-testimonials {
-    background-color:  #f1f3f5;
+    background-color:  #f5f7f8;
     padding: 4rem 0;
 }
 
