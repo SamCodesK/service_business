@@ -403,22 +403,22 @@ padding: 9.6rem 0;
 /* aside */
 
 aside {
-    background-color: #e6e6e6;
-    padding: 7.6rem 0;
-   
+    background-color: #b854d1;
+    padding: 4rem 0;
+    color: #f5f7f8;
 }
 
 .aside-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 3rem;
-  background-color: #4dabf7;
+  column-gap: 5rem;
   align-items: center;
   padding: 4rem 0;
 }
 
 .news {
     font-size: 3rem;
+    font-weight: 700;
 }
 
 .aside-news {
@@ -426,9 +426,26 @@ aside {
     width: 700px;
 }
 
+.aside-email {
+    grid-column: 3/5;
+}
+
 .aside-container input {
     border: none;
-    background-color: none;
-    padding: 1.5rem 3rem;
-    border-radius: 5px;
+   padding: 1.2rem 3rem;
+    border-radius: 3px;
+    width: 50%;
+    font-family: inherit;
+    font-size: 1.8rem;
+}
+
+.aside-container input::placeholder {
+    color: gray;
+}
+
+/* footer */
+
+.footer {
+    padding: 9.6rem 0;
+    background-color: blue;
 }
