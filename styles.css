@@ -446,6 +446,90 @@ aside {
 /* footer */
 
 .footer {
-    padding: 9.6rem 0;
-    background-color: blue;
+    padding: 5.6rem 0;
+    background-color: lightgray;
+}
+
+.grid-footer {
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.footer-container {
+    padding: 0 2rem;
+    justify-items: center;
+}
+
+.span-kempt {
+    font-size: 3rem;
+}
+
+.logo-span {
+    height: 7rem;
+    margin-bottom: 3rem;
+}
+
+.kempt-p {
+    font-size: 1.6rem;
+    margin-bottom: 8rem;
+    max-width: 100%;
+}
+
+.footer-aside {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.footer-p {
+    font-size: 2rem;
+}
+
+.recent-post {
+    margin-bottom: 4rem;
+}
+
+.footer-explore {
+    list-style: none;
+    font-size: 1.6rem;
+}
+
+.footer-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.figure-posts {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.figure-icon {
+    height: 5rem;
+    width: 5rem;
+    color: #b854d1;
+}
+
+.recent-posts-text {
+   display: flex;
+   flex-direction: column;
+}
+
+.mini-text {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 1rem;
+   margin-bottom: 1rem;
+}
+
+.mini-text-p {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.bottom-post {
+    font-size: 1.1rem;
 }

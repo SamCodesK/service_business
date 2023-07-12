@@ -47,6 +47,10 @@ color: #f5f7f8
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.grid--5--cols  {
+    grid-template-columns: repeat(5, 1fr);
+}
+
 
 strong {
     font-weight: 500;
